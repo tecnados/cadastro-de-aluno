@@ -1,13 +1,11 @@
-<?php
-require_once 'config.php';
-?>
+
 <html>
 
     <header>
 
         <meta charset="UTF-8">
 
-        <title><?= $titulo ?></title>
+        <title>Cadastro de aluno</title>
 
         <script type="text/javascript" src="assets/js/jquery-3.2.1.js"></script>
         <script type="text/javascript" src="assets/js/datatable.js"></script>
