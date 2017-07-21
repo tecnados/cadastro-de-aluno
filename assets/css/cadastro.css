@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 20/07/2017, 21:56:55
+    Author     : Gledson
+*/
+.login {
+    height:110px;
+    width:190px;
+    margin:auto;
+    border:1px #337ab7 solid;
+    padding: 80px;
+}
+.login input {
+    padding:5px;
+    margin:5px
+}
+.login .botao{
+    background-color: cornflowerblue;
+    color: azure;
+    padding: 10px;
+    margin-top: 10px;
+    width:155px;
+}
+.login .botao:hover{
+    background: whitesmoke;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width:155px;
+}
+
