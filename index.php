@@ -1,5 +1,6 @@
 
-<html>
+<html lang="pt_BR"
+      ng-app="formApp">
 
     <header>
 
@@ -9,8 +10,14 @@
 
         <script type="text/javascript" src="assets/js/jquery-3.2.1.js"></script>
         <script type="text/javascript" src="assets/js/datatable.js"></script>
+        <script type="text/javascript" src="assets/js/angular.min.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
+        <script type="text/javascript" src="assets/js/controller.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="assets/css/datatable.css">
         <link rel="stylesheet" type="text/css" href="assets/css/tabela.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 
         <script>
 
@@ -26,14 +33,17 @@
     </header>
 
     <body>
+        <div class="container">
 
-        <div id="header"></div>
+            <div id="header"></div>
 
-        <div id="cadastro"></div>
+            <div id="cadastro"></div>
 
-        <div id="tabela"></div>
+            <div id="tabela"></div>
 
-        <div id="footer"></div>
+            <div id="footer"></div>
+
+        </div>
 
     </body>
 
