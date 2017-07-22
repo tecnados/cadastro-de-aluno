@@ -4,10 +4,6 @@
     color: #777;
     border-top: 1px solid;
 }
-.jumbotron{
-    background-color: #286090;
-    color: #f1f1f1;
-}
 label, input { display:block; }
 input.text { margin-bottom:12px; width:95%; padding: .4em; }
 fieldset { padding:0; border:0; margin-top:25px; }

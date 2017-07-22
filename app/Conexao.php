@@ -1,9 +1,7 @@
 <?php
 
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Estabelece a conexão com banco de dados MySQL!
  */
 $servidor = 'localhost';
 $usuario = 'root';
@@ -16,4 +14,4 @@ function conectar($servidor, $usuario, $senha, $database) {
     return $conn;
 }
 
-$conn = conectar($servidor, $usuario, $senha, $database);
+$conn = conectar($servidor, $usuario, $senha, $database); // Adicionar a conexão com banco na variavel conn!
