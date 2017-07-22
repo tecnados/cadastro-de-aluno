@@ -1,38 +1,38 @@
-(function() {
-  
-  'use strict';
+(function () {
 
-  angular
-    .module( 'formApp' )
-    .controller( 'FormController', FormController );
+    'use strict';
 
-  FormController.$inject = [ '$scope' ];
+    angular
+            .module('formApp')
+            .controller('FormController', FormController);
 
-  function FormController( $scope ) {
+    FormController.$inject = ['$scope'];
 
-    var vm = this;
+    function FormController($scope) {
 
-    ///////////// Properties
-    vm.customer = {};
+        var vm = this;
 
-    ///////////// Public Methods
-    vm.save = save;
+        ///////////// Properties
+        vm.customer = {};
 
-    ///////////// Private Methods
+        ///////////// Public Methods
+        vm.save = save;
 
-    /////////////
-    function save( data ) {
+        ///////////// Private Methods
 
-      console.log( 'Data were successfully sent to the server!' );
-      console.log( JSON.stringify( data, null, 2 ));
-      
-      vm.customer = {};
+        /////////////
+        function save(data) {
 
-      // we need $scope to use this method
-      $scope.customerForm.$setPristine();
+            console.log('Data were successfully sent to the server!');
+            console.log(JSON.stringify(data, null, 2));
+
+            vm.customer = {};
+
+            // we need $scope to use this method
+            $scope.customerForm.$setPristine();
+
+        }
 
     }
-
-  }
 
 }());
